@@ -39,7 +39,15 @@ body {
     grid-template-columns: repeat(8, 1fr);
     gap: 20px;
     padding: 0 20px;
+}
+/*------------------------SLIDER---------------------------*/
+.slick-track {
+    display: flex;
 }   
+.slick-list {
+    overflow: hidden;
+}
+/*--------------------------------------------------------------------------*/
 .logo {
     grid-column: 1;
     grid-row: 1;
