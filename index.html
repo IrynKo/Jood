@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
@@ -25,9 +26,9 @@
 </head>
 <body>
   <header class="header" >
-        <nav class="navigation">
+        <nav class="navigation ">
             <div class="container grid">
-           <a href="#"> <img src="./images/logo.png" class="logo" alt="logo"> </a>
+           <a href="#"> <img src="./images/logo.png" class="logo animate__animated animate__hinge" alt="logo"> </a>
             <ul class="navigation__menu">
                 <li class="navigation__menu__item"> <a href="">Home</a> </li>
                 <li class="navigation__menu__item"> <a href="">About us</a> </li>
@@ -49,8 +50,8 @@
                     <div class="hero__button-set">
                     <button type="button" class="hero__button">Download Now</button>
                     <div class="video-button">
-                    <button type="button" class="hero-video__button" >
-                        <i class="fa fa-play"></i>
+                    <button type="button" class="hero-video__button switcher" >
+                        <i class="fa fa-play animate__animated animate__pulse"></i>
                     </button>
                     <p class="hero-video__button__text"> Watch Video</p>
                 </div>
@@ -88,7 +89,7 @@
                  the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
                  with the release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
                  <div class="download-button">
-                 <a type="button" class="about__button grid google-play"> 
+                 <a type="button" class="about__button google-play"> 
                      <img src="./images/Image.svg" alt="">
                     <p>Get it from <br/><span class="app-name"> Google Play</span></p> </a>
                  <a type="button" class="about__button app-store"> 
@@ -162,21 +163,21 @@
             <p class="screens__text text">Lorem Ipsum is simply dummy text of the printing and 
                 typesetting industry. <br> Lorem Ipsum has been the industry's</p>
         </div>
-        <div class="screens-image slider center">
+        <div class="screens-image slider">
             <div class="slider-item">
-            <img src="./images/iPhone X - Light.png" alt="">
+            <img src="./images/iPhone X1.png" alt="">
         </div>
         <div class="slider-item">
-            <img src="./images/iPhone.png" alt="">
+            <img src="./images/iPhone X2.png" alt="">
         </div>
         <div class="slider-item">
-            <img src="./images/iPhone_big.png" alt="">
+            <img src="./images/iPhone X3.png" alt="">
         </div>
         <div class="slider-item">
-            <img src="./images/iPhone_small1.png" alt="">
+            <img src="./images/iPhone X4.png" alt="">
         </div>
         <div class="slider-item">
-            <img src="./images/iPhone_small1.png" alt="">
+            <img src="./images/iPhone X5.png" alt="">
         </div>
         </div>
         </div>
@@ -221,7 +222,7 @@
             <p class="download-call__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 <div class="download-button">
-                <a type="button" class="about__button grid google-play"> 
+                <a type="button" class="about__button google-play"> 
                     <img src="./images/Image.svg" alt="">
                    <p>Get it from <br/><span class="app-name"> Google Play</span></p> </a>
                 <a type="button" class="about__button app-store"> 
@@ -229,8 +230,10 @@
                     <p>Download on the <br/><span class="app-name">App Store</span></p>  </a>
                 </div>
                 </div>
-                
-            <img class="download-call__image" src="./images/Mask Group 1.png" alt="">
+               <div class="download-call__image">
+            <img  src="./images/Mask Group 1.png" alt="">
+            </div>
+
             </div>
         </section>
         <!-------CONTACT-BLANK---------->
@@ -240,11 +243,11 @@
              <p class="blank__text text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
                   Lorem Ipsum has
                   been the industry's</p>
-             <form class="blank grid">
-                 <div class="blank-form">
+             <form class="blank">
+                 <div class="blank-form flex">
+                 
                      <input type="name" class="blank-form__input" placeholder="Enter Your Name">
-                 </div>
-                 <div class="blank-form">
+                
                      <input type="email" class="blank-form__input" placeholder="Enter Your Email">
                  </div>
                  <div class="blank-form">
