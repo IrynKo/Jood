@@ -788,8 +788,9 @@ footer .container {
        font-size: 16px;
        padding: 15px 39px;
    }
-   .navigation .logo {
+   .logo {
        width: 70%;
+       animation: bounceInDown;
    }
    .hero__text {
        font-size: 15px;
@@ -822,6 +823,9 @@ footer .container {
    .about .grid {
        grid-template-columns: 1fr 1fr;
    }
+   .about__image .second {
+    left: 19%;
+}
    
    .about__image img {
        height: 600px;
