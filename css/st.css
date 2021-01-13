@@ -216,7 +216,7 @@
             color: white;
             vertical-align: middle;
 
-            animation: swing;
+            animation: pulse;
             animation-duration: 2s;
             animation-direction: alternate;
             animation-iteration-count: infinite;
