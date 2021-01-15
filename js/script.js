@@ -6,3 +6,10 @@ $('.slider').slick({
     
 });
 });
+
+
+$(document).ready(function(){
+    $('.menu-burger').click(function(event) {
+    $('.menu-burger, .navigation__menu').toggleClass('active');
+    });
+})
